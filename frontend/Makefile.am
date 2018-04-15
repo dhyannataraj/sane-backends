@@ -6,7 +6,7 @@
 
 EXTRA_PROGRAMS = test tstbackend
 
-bin_PROGRAMS = scanimage
+bin_PROGRAMS = scanimage nataraj_test
 
 if COMPILE_SANED
 sbin_PROGRAMS = saned
@@ -19,6 +19,8 @@ AM_CPPFLAGS += -I. -I$(srcdir) -I$(top_builddir)/include -I$(top_srcdir)/include
 scanimage_SOURCES = scanimage.c sicc.c sicc.h stiff.c stiff.h
 scanimage_LDADD = ../backend/libsane.la ../sanei/libsanei.la ../lib/liblib.la \
                   $(PNG_LIBS) $(JPEG_LIBS)
+
+nataraj_test_SOURCES = nataraj_test.c
 
 saned_SOURCES = saned.c
 saned_LDADD = ../backend/libsane.la ../sanei/libsanei.la ../lib/liblib.la \
