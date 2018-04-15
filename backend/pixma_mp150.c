@@ -972,6 +972,7 @@ handle_interrupt (pixma_t * s, int timeout)
       || s->cfg->pid == MX520_PID
       || s->cfg->pid == MX720_PID
       || s->cfg->pid == MX920_PID
+      || s->cfg->pid == MB2300_PID
       || s->cfg->pid == MB5000_PID)
   /* button no. in buf[7]
    * size in buf[10] 01=A4; 02=Letter; 08=10x15; 09=13x18; 0b=auto
@@ -1842,7 +1843,7 @@ const pixma_config_t pixma_mp150_devices[] = {
   DEVICE ("Canon MAXIFY MB5000 Series", "MB5000", MB5000_PID, 1200, 0, 0, 638, 1050, PIXMA_CAP_CIS | PIXMA_CAP_ADFDUP),
   DEVICE ("Canon MAXIFY MB5300 Series", "MB5300", MB5300_PID, 1200, 0, 0, 638, 1050, PIXMA_CAP_CIS | PIXMA_CAP_ADFDUP),
   DEVICE ("Canon MAXIFY MB2000 Series", "MB2000", MB2000_PID, 1200, 0, 0, 638, 1050, PIXMA_CAP_CIS | PIXMA_CAP_ADFDUP),
-  DEVICE ("Canon MAXIFY MB2300 Series", "MB2300", MB2300_PID, 1200, 0, 0, 638, 1050, PIXMA_CAP_CIS | PIXMA_CAP_ADFDUP),
+  DEVICE ("Canon MAXIFY MB2300 Series", "MB2300", MB2300_PID, 1200, 0, 0, 638, 1050, PIXMA_CAP_CIS | PIXMA_CAP_ADF),
   DEVICE ("Canon PIXMA E400",  "E400",  E400_PID,  600, 0, 0, 638, 877, PIXMA_CAP_CIS),
   DEVICE ("Canon PIXMA E560",  "E560",  E560_PID, 1200, 0, 0, 638, 877, PIXMA_CAP_CIS),
   DEVICE ("Canon PIXMA MG7500 Series", "MG7500", MG7500_PID, 2400, 0, 0, 638, 877, PIXMA_CAP_CIS),
