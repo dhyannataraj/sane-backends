@@ -21,6 +21,7 @@ scanimage_LDADD = ../backend/libsane.la ../sanei/libsanei.la ../lib/liblib.la \
                   $(PNG_LIBS) $(JPEG_LIBS)
 
 nataraj_test_SOURCES = nataraj_test.c
+nataraj_test_LDADD = ../sanei/libsanei.la ../backend/libsane.la ../backend/libgenesys.la  $(USB_LIBS) $(MATH_LIB)
 
 saned_SOURCES = saned.c
 saned_LDADD = ../backend/libsane.la ../sanei/libsanei.la ../lib/liblib.la \

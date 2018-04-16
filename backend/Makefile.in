@@ -436,7 +436,7 @@ libsane_artec_eplus48u_la_DEPENDENCIES = $(COMMON_LIBS) \
 	../sanei/sanei_constrain_value.lo ../sanei/sanei_config.lo \
 	sane_strstatus.lo ../sanei/sanei_usb.lo \
 	../sanei/sanei_thread.lo $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_artec_eplus48u_la_OBJECTS =  \
 	libsane_artec_eplus48u_la-artec_eplus48u-s.lo
 libsane_artec_eplus48u_la_OBJECTS =  \
@@ -460,7 +460,8 @@ libsane_avision_la_DEPENDENCIES = $(COMMON_LIBS) libavision.la \
 	sane_strstatus.lo ../sanei/sanei_usb.lo \
 	../sanei/sanei_thread.lo ../sanei/sanei_scsi.lo \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_avision_la_OBJECTS = libsane_avision_la-avision-s.lo
 libsane_avision_la_OBJECTS = $(nodist_libsane_avision_la_OBJECTS)
 libsane_avision_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -492,7 +493,7 @@ libsane_canon630u_la_DEPENDENCIES = $(COMMON_LIBS) libcanon630u.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_canon630u_la_OBJECTS =  \
 	libsane_canon630u_la-canon630u-s.lo
 libsane_canon630u_la_OBJECTS = $(nodist_libsane_canon630u_la_OBJECTS)
@@ -505,7 +506,8 @@ libsane_canon_dr_la_DEPENDENCIES = $(COMMON_LIBS) libcanon_dr.la \
 	../sanei/sanei_config.lo ../sanei/sanei_config2.lo \
 	sane_strstatus.lo ../sanei/sanei_usb.lo ../sanei/sanei_scsi.lo \
 	../sanei/sanei_magic.lo $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_canon_dr_la_OBJECTS =  \
 	libsane_canon_dr_la-canon_dr-s.lo
 libsane_canon_dr_la_OBJECTS = $(nodist_libsane_canon_dr_la_OBJECTS)
@@ -527,7 +529,8 @@ libsane_canon_pp_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 libsane_cardscan_la_DEPENDENCIES = $(COMMON_LIBS) libcardscan.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
-	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1)
+	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_cardscan_la_OBJECTS =  \
 	libsane_cardscan_la-cardscan-s.lo
 libsane_cardscan_la_OBJECTS = $(nodist_libsane_cardscan_la_OBJECTS)
@@ -541,7 +544,8 @@ libsane_coolscan_la_DEPENDENCIES = $(COMMON_LIBS) libcoolscan.la \
 	sane_strstatus.lo ../sanei/sanei_thread.lo \
 	../sanei/sanei_usb.lo ../sanei/sanei_scsi.lo \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_coolscan_la_OBJECTS =  \
 	libsane_coolscan_la-coolscan-s.lo
 libsane_coolscan_la_OBJECTS = $(nodist_libsane_coolscan_la_OBJECTS)
@@ -554,7 +558,7 @@ libsane_coolscan2_la_DEPENDENCIES = $(COMMON_LIBS) libcoolscan2.la \
 	../sanei/sanei_config.lo ../sanei/sanei_config2.lo \
 	sane_strstatus.lo ../sanei/sanei_usb.lo ../sanei/sanei_scsi.lo \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_coolscan2_la_OBJECTS =  \
 	libsane_coolscan2_la-coolscan2-s.lo
 libsane_coolscan2_la_OBJECTS = $(nodist_libsane_coolscan2_la_OBJECTS)
@@ -567,7 +571,7 @@ libsane_coolscan3_la_DEPENDENCIES = $(COMMON_LIBS) libcoolscan3.la \
 	../sanei/sanei_config.lo ../sanei/sanei_config2.lo \
 	sane_strstatus.lo ../sanei/sanei_usb.lo ../sanei/sanei_scsi.lo \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_coolscan3_la_OBJECTS =  \
 	libsane_coolscan3_la-coolscan3-s.lo
 libsane_coolscan3_la_OBJECTS = $(nodist_libsane_coolscan3_la_OBJECTS)
@@ -643,7 +647,7 @@ libsane_epjitsu_la_DEPENDENCIES = $(COMMON_LIBS) libepjitsu.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_epjitsu_la_OBJECTS = libsane_epjitsu_la-epjitsu-s.lo
 libsane_epjitsu_la_OBJECTS = $(nodist_libsane_epjitsu_la_OBJECTS)
 libsane_epjitsu_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -655,7 +659,7 @@ libsane_epson_la_DEPENDENCIES = $(COMMON_LIBS) libepson.la \
 	../sanei/sanei_config.lo ../sanei/sanei_config2.lo \
 	sane_strstatus.lo ../sanei/sanei_usb.lo ../sanei/sanei_scsi.lo \
 	../sanei/sanei_pio.lo $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_epson_la_OBJECTS = libsane_epson_la-epson-s.lo
 libsane_epson_la_OBJECTS = $(nodist_libsane_epson_la_OBJECTS)
 libsane_epson_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -669,7 +673,7 @@ libsane_epson2_la_DEPENDENCIES = $(COMMON_LIBS) libepson2.la \
 	../sanei/sanei_pio.lo ../sanei/sanei_tcp.lo \
 	../sanei/sanei_udp.lo $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_epson2_la_OBJECTS = libsane_epson2_la-epson2-s.lo
 libsane_epson2_la_OBJECTS = $(nodist_libsane_epson2_la_OBJECTS)
 libsane_epson2_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -683,7 +687,7 @@ libsane_epsonds_la_DEPENDENCIES = $(COMMON_LIBS) libepsonds.la \
 	../sanei/sanei_tcp.lo ../sanei/sanei_udp.lo \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_epsonds_la_OBJECTS = libsane_epsonds_la-epsonds-s.lo
 libsane_epsonds_la_OBJECTS = $(nodist_libsane_epsonds_la_OBJECTS)
 libsane_epsonds_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -695,7 +699,8 @@ libsane_fujitsu_la_DEPENDENCIES = $(COMMON_LIBS) libfujitsu.la \
 	../sanei/sanei_config.lo ../sanei/sanei_config2.lo \
 	sane_strstatus.lo ../sanei/sanei_usb.lo ../sanei/sanei_scsi.lo \
 	../sanei/sanei_magic.lo $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_fujitsu_la_OBJECTS = libsane_fujitsu_la-fujitsu-s.lo
 libsane_fujitsu_la_OBJECTS = $(nodist_libsane_fujitsu_la_OBJECTS)
 libsane_fujitsu_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -706,7 +711,7 @@ libsane_genesys_la_DEPENDENCIES = $(COMMON_LIBS) libgenesys.la \
 	../sanei/sanei_magic.lo ../sanei/sanei_init_debug.lo \
 	../sanei/sanei_constrain_value.lo ../sanei/sanei_config.lo \
 	sane_strstatus.lo ../sanei/sanei_usb.lo $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_genesys_la_OBJECTS = libsane_genesys_la-genesys-s.lo
 libsane_genesys_la_OBJECTS = $(nodist_libsane_genesys_la_OBJECTS)
 libsane_genesys_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -728,7 +733,7 @@ libsane_gt68xx_la_DEPENDENCIES = $(COMMON_LIBS) libgt68xx.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_gt68xx_la_OBJECTS = libsane_gt68xx_la-gt68xx-s.lo
 libsane_gt68xx_la_OBJECTS = $(nodist_libsane_gt68xx_la_OBJECTS)
 libsane_gt68xx_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -741,7 +746,7 @@ libsane_hp_la_DEPENDENCIES = $(COMMON_LIBS) libhp.la \
 	sane_strstatus.lo ../sanei/sanei_usb.lo ../sanei/sanei_scsi.lo \
 	../sanei/sanei_pio.lo ../sanei/sanei_thread.lo \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_hp_la_OBJECTS = libsane_hp_la-hp-s.lo
 libsane_hp_la_OBJECTS = $(nodist_libsane_hp_la_OBJECTS)
 libsane_hp_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
@@ -752,7 +757,7 @@ libsane_hp3500_la_DEPENDENCIES = $(COMMON_LIBS) libhp3500.la \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_usb.lo ../sanei/sanei_thread.lo \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_hp3500_la_OBJECTS = libsane_hp3500_la-hp3500-s.lo
 libsane_hp3500_la_OBJECTS = $(nodist_libsane_hp3500_la_OBJECTS)
 libsane_hp3500_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -763,7 +768,8 @@ libsane_hp3900_la_DEPENDENCIES = $(COMMON_LIBS) libhp3900.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_hp3900_la_OBJECTS = libsane_hp3900_la-hp3900-s.lo
 libsane_hp3900_la_OBJECTS = $(nodist_libsane_hp3900_la_OBJECTS)
 libsane_hp3900_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -774,7 +780,8 @@ libsane_hp4200_la_DEPENDENCIES = $(COMMON_LIBS) libhp4200.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_usb.lo ../sanei/sanei_pv8630.lo \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_hp4200_la_OBJECTS = libsane_hp4200_la-hp4200-s.lo
 libsane_hp4200_la_OBJECTS = $(nodist_libsane_hp4200_la_OBJECTS)
 libsane_hp4200_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -784,7 +791,8 @@ libsane_hp4200_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 libsane_hp5400_la_DEPENDENCIES = $(COMMON_LIBS) libhp5400.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
-	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1)
+	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_hp5400_la_OBJECTS = libsane_hp5400_la-hp5400-s.lo
 libsane_hp5400_la_OBJECTS = $(nodist_libsane_hp5400_la_OBJECTS)
 libsane_hp5400_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -794,7 +802,8 @@ libsane_hp5400_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 libsane_hp5590_la_DEPENDENCIES = $(COMMON_LIBS) libhp5590.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
-	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1)
+	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_hp5590_la_OBJECTS = libsane_hp5590_la-hp5590-s.lo
 libsane_hp5590_la_OBJECTS = $(nodist_libsane_hp5590_la_OBJECTS)
 libsane_hp5590_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -805,7 +814,7 @@ libsane_hpljm1005_la_DEPENDENCIES = $(COMMON_LIBS) libhpljm1005.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_hpljm1005_la_OBJECTS =  \
 	libsane_hpljm1005_la-hpljm1005-s.lo
 libsane_hpljm1005_la_OBJECTS = $(nodist_libsane_hpljm1005_la_OBJECTS)
@@ -849,7 +858,8 @@ libsane_kodak_la_DEPENDENCIES = $(COMMON_LIBS) libkodak.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo ../sanei/sanei_config2.lo \
 	sane_strstatus.lo ../sanei/sanei_scsi.lo $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_kodak_la_OBJECTS = libsane_kodak_la-kodak-s.lo
 libsane_kodak_la_OBJECTS = $(nodist_libsane_kodak_la_OBJECTS)
 libsane_kodak_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -861,6 +871,7 @@ libsane_kodakaio_la_DEPENDENCIES = $(COMMON_LIBS) libkodakaio.la \
 	../sanei/sanei_config.lo ../sanei/sanei_config2.lo \
 	sane_strstatus.lo ../sanei/sanei_usb.lo ../sanei/sanei_scsi.lo \
 	../sanei/sanei_tcp.lo ../sanei/sanei_udp.lo \
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1)
 nodist_libsane_kodakaio_la_OBJECTS =  \
@@ -874,7 +885,8 @@ libsane_kvs1025_la_DEPENDENCIES = $(COMMON_LIBS) libkvs1025.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_usb.lo ../sanei/sanei_magic.lo \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_kvs1025_la_OBJECTS = libsane_kvs1025_la-kvs1025-s.lo
 libsane_kvs1025_la_OBJECTS = $(nodist_libsane_kvs1025_la_OBJECTS)
 libsane_kvs1025_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -885,7 +897,8 @@ libsane_kvs20xx_la_DEPENDENCIES = $(COMMON_LIBS) libkvs20xx.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_usb.lo ../sanei/sanei_scsi.lo \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_kvs20xx_la_OBJECTS = libsane_kvs20xx_la-kvs20xx-s.lo
 libsane_kvs20xx_la_OBJECTS = $(nodist_libsane_kvs20xx_la_OBJECTS)
 libsane_kvs20xx_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -897,7 +910,7 @@ libsane_kvs40xx_la_DEPENDENCIES = $(COMMON_LIBS) libkvs40xx.la \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_usb.lo ../sanei/sanei_scsi.lo \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_kvs40xx_la_OBJECTS = libsane_kvs40xx_la-kvs40xx-s.lo
 libsane_kvs40xx_la_OBJECTS = $(nodist_libsane_kvs40xx_la_OBJECTS)
 libsane_kvs40xx_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -918,7 +931,8 @@ libsane_leo_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 libsane_lexmark_la_DEPENDENCIES = $(COMMON_LIBS) liblexmark.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
-	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1)
+	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_lexmark_la_OBJECTS = libsane_lexmark_la-lexmark-s.lo
 libsane_lexmark_la_OBJECTS = $(nodist_libsane_lexmark_la_OBJECTS)
 libsane_lexmark_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -928,7 +942,8 @@ libsane_lexmark_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 libsane_ma1509_la_DEPENDENCIES = $(COMMON_LIBS) libma1509.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
-	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1)
+	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_ma1509_la_OBJECTS = libsane_ma1509_la-ma1509-s.lo
 libsane_ma1509_la_OBJECTS = $(nodist_libsane_ma1509_la_OBJECTS)
 libsane_ma1509_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -941,7 +956,8 @@ libsane_magicolor_la_DEPENDENCIES = $(COMMON_LIBS) libmagicolor.la \
 	sane_strstatus.lo ../sanei/sanei_usb.lo ../sanei/sanei_scsi.lo \
 	../sanei/sanei_tcp.lo ../sanei/sanei_udp.lo \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_magicolor_la_OBJECTS =  \
 	libsane_magicolor_la-magicolor-s.lo
 libsane_magicolor_la_OBJECTS = $(nodist_libsane_magicolor_la_OBJECTS)
@@ -1017,7 +1033,8 @@ libsane_mustek_pp_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 libsane_mustek_usb_la_DEPENDENCIES = $(COMMON_LIBS) libmustek_usb.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
-	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1)
+	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_mustek_usb_la_OBJECTS =  \
 	libsane_mustek_usb_la-mustek_usb-s.lo
 libsane_mustek_usb_la_OBJECTS =  \
@@ -1031,7 +1048,8 @@ libsane_mustek_usb2_la_DEPENDENCIES = $(COMMON_LIBS) libmustek_usb2.la \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_usb.lo ../sanei/sanei_thread.lo \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_mustek_usb2_la_OBJECTS =  \
 	libsane_mustek_usb2_la-mustek_usb2-s.lo
 libsane_mustek_usb2_la_OBJECTS =  \
@@ -1055,7 +1073,8 @@ libsane_net_la_DEPENDENCIES = $(COMMON_LIBS) libnet.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_net.lo ../sanei/sanei_wire.lo \
-	../sanei/sanei_codec_bin.lo $(am__DEPENDENCIES_1)
+	../sanei/sanei_codec_bin.lo $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_net_la_OBJECTS = libsane_net_la-net-s.lo
 libsane_net_la_OBJECTS = $(nodist_libsane_net_la_OBJECTS)
 libsane_net_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -1066,7 +1085,7 @@ libsane_niash_la_DEPENDENCIES = $(COMMON_LIBS) libniash.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_niash_la_OBJECTS = libsane_niash_la-niash-s.lo
 libsane_niash_la_OBJECTS = $(nodist_libsane_niash_la_OBJECTS)
 libsane_niash_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -1100,7 +1119,7 @@ libsane_pieusb_la_DEPENDENCIES = $(COMMON_LIBS) libpieusb.la \
 	../sanei/sanei_thread.lo ../sanei/sanei_usb.lo \
 	../sanei/sanei_ir.lo ../sanei/sanei_magic.lo \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_pieusb_la_OBJECTS = libsane_pieusb_la-pieusb-s.lo
 libsane_pieusb_la_OBJECTS = $(nodist_libsane_pieusb_la_OBJECTS)
 libsane_pieusb_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -1121,7 +1140,8 @@ libsane_pixma_la_DEPENDENCIES = $(COMMON_LIBS) libpixma.la \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_usb.lo ../sanei/sanei_thread.lo \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_pixma_la_OBJECTS = libsane_pixma_la-pixma-s.lo
 libsane_pixma_la_OBJECTS = $(nodist_libsane_pixma_la_OBJECTS)
 libsane_pixma_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -1134,7 +1154,7 @@ libsane_plustek_la_DEPENDENCIES = $(COMMON_LIBS) libplustek.la \
 	../sanei/sanei_usb.lo ../sanei/sanei_thread.lo \
 	../sanei/sanei_lm983x.lo ../sanei/sanei_access.lo \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_plustek_la_OBJECTS = libsane_plustek_la-plustek-s.lo
 libsane_plustek_la_OBJECTS = $(nodist_libsane_plustek_la_OBJECTS)
 libsane_plustek_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -1190,7 +1210,7 @@ libsane_rts8891_la_DEPENDENCIES = $(COMMON_LIBS) librts8891.la \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_scsi.lo ../sanei/sanei_usb.lo \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_rts8891_la_OBJECTS = libsane_rts8891_la-rts8891-s.lo
 libsane_rts8891_la_OBJECTS = $(nodist_libsane_rts8891_la_OBJECTS)
 libsane_rts8891_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -1233,7 +1253,8 @@ libsane_sharp_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 libsane_sm3600_la_DEPENDENCIES = $(COMMON_LIBS) libsm3600.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
-	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1)
+	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_sm3600_la_OBJECTS = libsane_sm3600_la-sm3600-s.lo
 libsane_sm3600_la_OBJECTS = $(nodist_libsane_sm3600_la_OBJECTS)
 libsane_sm3600_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -1244,7 +1265,7 @@ libsane_sm3840_la_DEPENDENCIES = $(COMMON_LIBS) libsm3840.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_sm3840_la_OBJECTS = libsane_sm3840_la-sm3840-s.lo
 libsane_sm3840_la_OBJECTS = $(nodist_libsane_sm3840_la_OBJECTS)
 libsane_sm3840_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -1257,7 +1278,8 @@ libsane_snapscan_la_DEPENDENCIES = $(COMMON_LIBS) libsnapscan.la \
 	sane_strstatus.lo ../sanei/sanei_usb.lo \
 	../sanei/sanei_thread.lo ../sanei/sanei_scsi.lo \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_snapscan_la_OBJECTS =  \
 	libsane_snapscan_la-snapscan-s.lo
 libsane_snapscan_la_OBJECTS = $(nodist_libsane_snapscan_la_OBJECTS)
@@ -1291,7 +1313,8 @@ libsane_st400_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 libsane_stv680_la_DEPENDENCIES = $(COMMON_LIBS) libstv680.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
-	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1)
+	../sanei/sanei_usb.lo $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_stv680_la_OBJECTS = libsane_stv680_la-stv680-s.lo
 libsane_stv680_la_OBJECTS = $(nodist_libsane_stv680_la_OBJECTS)
 libsane_stv680_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -1359,7 +1382,7 @@ libsane_u12_la_DEPENDENCIES = $(COMMON_LIBS) libu12.la \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_usb.lo ../sanei/sanei_thread.lo \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_u12_la_OBJECTS = libsane_u12_la-u12-s.lo
 libsane_u12_la_OBJECTS = $(nodist_libsane_u12_la_OBJECTS)
 libsane_u12_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -1373,7 +1396,7 @@ libsane_umax_la_DEPENDENCIES = $(COMMON_LIBS) libumax.la \
 	../sanei/sanei_thread.lo ../sanei/sanei_scsi.lo \
 	../sanei/sanei_pv8630.lo $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 nodist_libsane_umax_la_OBJECTS = libsane_umax_la-umax-s.lo
 libsane_umax_la_OBJECTS = $(nodist_libsane_umax_la_OBJECTS)
 libsane_umax_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -1384,7 +1407,8 @@ libsane_umax1220u_la_DEPENDENCIES = $(COMMON_LIBS) libumax1220u.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	../sanei/sanei_usb.lo ../sanei/sanei_pv8630.lo \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_umax1220u_la_OBJECTS =  \
 	libsane_umax1220u_la-umax1220u-s.lo
 libsane_umax1220u_la_OBJECTS = $(nodist_libsane_umax1220u_la_OBJECTS)
@@ -1404,7 +1428,8 @@ libsane_umax_pp_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(LDFLAGS) -o $@
 libsane_v4l_la_DEPENDENCIES = $(COMMON_LIBS) libv4l.la \
 	../sanei/sanei_init_debug.lo ../sanei/sanei_constrain_value.lo \
-	../sanei/sanei_config.lo sane_strstatus.lo
+	../sanei/sanei_config.lo sane_strstatus.lo \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_v4l_la_OBJECTS = libsane_v4l_la-v4l-s.lo
 libsane_v4l_la_OBJECTS = $(nodist_libsane_v4l_la_OBJECTS)
 libsane_v4l_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -1416,7 +1441,8 @@ libsane_xerox_mfp_la_DEPENDENCIES = $(COMMON_LIBS) libxerox_mfp.la \
 	../sanei/sanei_config.lo sane_strstatus.lo \
 	$(am__DEPENDENCIES_1) ../sanei/sanei_usb.lo \
 	../sanei/sanei_tcp.lo $(am__DEPENDENCIES_1) \
-	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
+	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 nodist_libsane_xerox_mfp_la_OBJECTS =  \
 	libsane_xerox_mfp_la-xerox_mfp-s.lo
 libsane_xerox_mfp_la_OBJECTS = $(nodist_libsane_xerox_mfp_la_OBJECTS)
@@ -1442,6 +1468,9 @@ libsane_xerox_mfp_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 @preloadable_backends_enabled_TRUE@	../sanei/sanei_tcp.lo \
 @preloadable_backends_enabled_TRUE@	../sanei/sanei_udp.lo \
 @preloadable_backends_enabled_TRUE@	../sanei/sanei_magic.lo \
+@preloadable_backends_enabled_TRUE@	$(am__DEPENDENCIES_1) \
+@preloadable_backends_enabled_TRUE@	$(am__DEPENDENCIES_1) \
+@preloadable_backends_enabled_TRUE@	$(am__DEPENDENCIES_1) \
 @preloadable_backends_enabled_TRUE@	$(am__DEPENDENCIES_1) \
 @preloadable_backends_enabled_TRUE@	$(am__DEPENDENCIES_1) \
 @preloadable_backends_enabled_TRUE@	$(am__DEPENDENCIES_1) \
@@ -1773,6 +1802,8 @@ AS = @AS@
 AUTOCONF = @AUTOCONF@
 AUTOHEADER = @AUTOHEADER@
 AUTOMAKE = @AUTOMAKE@
+AVAHI_CFLAGS = @AVAHI_CFLAGS@
+AVAHI_LIBS = @AVAHI_LIBS@
 AWK = @AWK@
 BACKENDS = @BACKENDS@
 BACKEND_CONFS_ENABLED = @BACKEND_CONFS_ENABLED@
@@ -1829,6 +1860,8 @@ LIBS = @LIBS@
 
 # LIBTOOL install is a little to noisy for my liking.
 LIBTOOL = @LIBTOOL@ --silent
+LIBV4L_CFLAGS = @LIBV4L_CFLAGS@
+LIBV4L_LIBS = @LIBV4L_LIBS@
 LIPO = @LIPO@
 LN_S = @LN_S@
 LOCKPATH_GROUP = @LOCKPATH_GROUP@
@@ -1861,6 +1894,9 @@ PACKAGE_URL = @PACKAGE_URL@
 PACKAGE_VERSION = @PACKAGE_VERSION@
 PATH_SEPARATOR = @PATH_SEPARATOR@
 PDFLATEX = @PDFLATEX@
+PKG_CONFIG = @PKG_CONFIG@
+PKG_CONFIG_LIBDIR = @PKG_CONFIG_LIBDIR@
+PKG_CONFIG_PATH = @PKG_CONFIG_PATH@
 PNG_LIBS = @PNG_LIBS@
 POSUB = @POSUB@
 PPMTOGIF = @PPMTOGIF@
@@ -1882,7 +1918,11 @@ SOCKET_LIBS = @SOCKET_LIBS@
 STRICT_LDFLAGS = @STRICT_LDFLAGS@
 STRIP = @STRIP@
 SYSLOG_LIBS = @SYSLOG_LIBS@
+SYSTEMD_CFLAGS = @SYSTEMD_CFLAGS@
+SYSTEMD_LIBS = @SYSTEMD_LIBS@
 TIFF_LIBS = @TIFF_LIBS@
+USB_CFLAGS = @USB_CFLAGS@
+USB_LIBS = @USB_LIBS@
 USE_NLS = @USE_NLS@
 VERSION = @VERSION@
 V_MAJOR = @V_MAJOR@

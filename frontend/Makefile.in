@@ -116,16 +116,19 @@ am__installdirs = "$(DESTDIR)$(bindir)" "$(DESTDIR)$(sbindir)"
 PROGRAMS = $(bin_PROGRAMS) $(sbin_PROGRAMS)
 am_nataraj_test_OBJECTS = nataraj_test.$(OBJEXT)
 nataraj_test_OBJECTS = $(am_nataraj_test_OBJECTS)
-nataraj_test_LDADD = $(LDADD)
+am__DEPENDENCIES_1 =
+nataraj_test_DEPENDENCIES = ../sanei/libsanei.la ../backend/libsane.la \
+	../backend/libgenesys.la $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 AM_V_lt = $(am__v_lt_@AM_V@)
 am__v_lt_ = $(am__v_lt_@AM_DEFAULT_V@)
 am__v_lt_0 = --silent
 am__v_lt_1 = 
 am_saned_OBJECTS = saned.$(OBJEXT)
 saned_OBJECTS = $(am_saned_OBJECTS)
-am__DEPENDENCIES_1 =
 saned_DEPENDENCIES = ../backend/libsane.la ../sanei/libsanei.la \
-	../lib/liblib.la $(am__DEPENDENCIES_1)
+	../lib/liblib.la $(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+	$(am__DEPENDENCIES_1)
 am_scanimage_OBJECTS = scanimage.$(OBJEXT) sicc.$(OBJEXT) \
 	stiff.$(OBJEXT)
 scanimage_OBJECTS = $(am_scanimage_OBJECTS)
@@ -215,6 +218,8 @@ AS = @AS@
 AUTOCONF = @AUTOCONF@
 AUTOHEADER = @AUTOHEADER@
 AUTOMAKE = @AUTOMAKE@
+AVAHI_CFLAGS = @AVAHI_CFLAGS@
+AVAHI_LIBS = @AVAHI_LIBS@
 AWK = @AWK@
 BACKENDS = @BACKENDS@
 BACKEND_CONFS_ENABLED = @BACKEND_CONFS_ENABLED@
@@ -269,6 +274,8 @@ LIBINTL = @LIBINTL@
 LIBOBJS = @LIBOBJS@
 LIBS = @LIBS@
 LIBTOOL = @LIBTOOL@
+LIBV4L_CFLAGS = @LIBV4L_CFLAGS@
+LIBV4L_LIBS = @LIBV4L_LIBS@
 LIPO = @LIPO@
 LN_S = @LN_S@
 LOCKPATH_GROUP = @LOCKPATH_GROUP@
@@ -301,6 +308,9 @@ PACKAGE_URL = @PACKAGE_URL@
 PACKAGE_VERSION = @PACKAGE_VERSION@
 PATH_SEPARATOR = @PATH_SEPARATOR@
 PDFLATEX = @PDFLATEX@
+PKG_CONFIG = @PKG_CONFIG@
+PKG_CONFIG_LIBDIR = @PKG_CONFIG_LIBDIR@
+PKG_CONFIG_PATH = @PKG_CONFIG_PATH@
 PNG_LIBS = @PNG_LIBS@
 POSUB = @POSUB@
 PPMTOGIF = @PPMTOGIF@
@@ -322,7 +332,11 @@ SOCKET_LIBS = @SOCKET_LIBS@
 STRICT_LDFLAGS = @STRICT_LDFLAGS@
 STRIP = @STRIP@
 SYSLOG_LIBS = @SYSLOG_LIBS@
+SYSTEMD_CFLAGS = @SYSTEMD_CFLAGS@
+SYSTEMD_LIBS = @SYSTEMD_LIBS@
 TIFF_LIBS = @TIFF_LIBS@
+USB_CFLAGS = @USB_CFLAGS@
+USB_LIBS = @USB_LIBS@
 USE_NLS = @USE_NLS@
 VERSION = @VERSION@
 V_MAJOR = @V_MAJOR@
@@ -392,6 +406,7 @@ scanimage_LDADD = ../backend/libsane.la ../sanei/libsanei.la ../lib/liblib.la \
                   $(PNG_LIBS) $(JPEG_LIBS)
 
 nataraj_test_SOURCES = nataraj_test.c
+nataraj_test_LDADD = ../sanei/libsanei.la ../backend/libsane.la ../backend/libgenesys.la  $(USB_LIBS) $(MATH_LIB)
 saned_SOURCES = saned.c
 saned_LDADD = ../backend/libsane.la ../sanei/libsanei.la ../lib/liblib.la \
               $(SYSLOG_LIBS) $(SYSTEMD_LIBS) $(AVAHI_LIBS)
